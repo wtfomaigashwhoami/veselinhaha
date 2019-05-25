@@ -14,7 +14,7 @@ client.on("message", async message => {
     if(message.content.startsWith(prefix + "hub")) {
 	    
 	    if(message.channel.name !== "bot-commands") {
-		    return message.channel.send("You can't use this command here please try in " + message.guild.channels.find(channel => channel.name === "bot-commands");
+		    return message.channel.send("You can't use this command here please try in #bot-commands");
 	    }
 	    
 	    if(cmdCooldown.has(message.author.id)) {
@@ -26,7 +26,7 @@ client.on("message", async message => {
     } else if(message.content.startsWith(prefix + "cbungee")) {
 	    
 	    if(message.channel.name !== "bot-commands") {
-		    return message.channel.send("You can't use this command here please try in " + message.guild.channels.find(channel => channel.name === "bot-commands");
+		    return message.channel.send("You can't use this command here please try in #bot-commands");
 	    }
 	    
 	    if(cmdCooldown.has(message.author.id)) {
@@ -38,7 +38,7 @@ client.on("message", async message => {
 	} else if(message.content.startsWith(prefix + "system")) {
 		
 		if(message.channel.name !== "bot-commands") {
-		    return message.channel.send("You can't use this command here please try in " + message.guild.channels.find(channel => channel.name === "bot-commands");
+		    return message.channel.send("You can't use this command here please try in #bot-commands");
 	    }
 		
 		if(cmdCooldown.has(message.author.id)) {
@@ -50,7 +50,7 @@ client.on("message", async message => {
 	} else if(message.content.startsWith(prefix + "pspigot")) {
 		
 		if(message.channel.name !== "bot-commands") {
-		    return message.channel.send("You can't use this command here please try in " + message.guild.channels.find(channel => channel.name === "bot-commands");
+		    return message.channel.send("You can't use this command here please try in #bot-commands");
 	    }
 		
 		if(cmdCooldown.has(message.author.id)) {
@@ -62,7 +62,7 @@ client.on("message", async message => {
 	} else if(message.content.startsWith(prefix + "ipwhitelist")) {
 		
 		if(message.channel.name !== "bot-commands") {
-		    return message.channel.send("You can't use this command here please try in " + message.guild.channels.find(channel => channel.name === "bot-commands");
+		    return message.channel.send("You can't use this command here please try in #bot-commands");
 	    }
 		
 		if(cmdCooldown.has(message.author.id)) {
@@ -74,7 +74,7 @@ client.on("message", async message => {
 	} else if(message.content.startsWith(prefix + "forwading")) {
 		
 		if(message.channel.name !== "bot-commands") {
-		    return message.channel.send("You can't use this command here please try in " + message.guild.channels.find(channel => channel.name === "bot-commands");
+		    return message.channel.send("You can't use this command here please try in #bot-commands");
 	    }
 		
 		if(cmdCooldown.has(message.author.id)) {
